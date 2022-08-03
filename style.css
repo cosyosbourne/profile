@@ -1,0 +1,145 @@
+body {
+  /* background: #553555; */
+  background-image: url(images/nasa.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Benne', serif;
+  font-weight: 200;
+  color: #FFFDFD;
+}
+
+h1 {
+  font-family: 'Square Peg', cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Square Peg', cursive;
+  font-size: 40px;
+}
+
+a {
+  font-family: 'Pacifico', cursive;
+  font-size: x-large;
+  color: #ADF1D2;
+  text-decoration: none;
+}
+
+.btn-purple {
+  background-color: #553555;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.intro > a:hover {
+  color: #F6AE2D;
+  box-shadow: 12px 6px 12px rgba(245, 244, 242, 0.8);
+}
+
+a:hover {
+  color: #F6AE2D;
+}
+
+.container {
+  margin: 20px auto;
+  /* width: 700px; */
+}
+
+.card {
+  background-image: url(images/carina_nebula.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid #FFFDFD;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0px 4px 8px rgba(163, 120, 46, 0.8);
+  border-radius: 1%
+}
+
+.links {
+  background-image: url(images/black_holes.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:600px;}
+  50%  {left:0px; top:450px;}
+  100% {left:0px; top:0px;}
+}
+
+.intro {
+  position: relative;
+  animation-name: test;
+  animation-duration: 3s;
+}
+
+@keyframes test {
+  0%   {left:500px; top:0px;}
+  50%  {left:-500px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  border: 5px solid #FFFDFD;
+  border-color: #553555;
+}
+
+.img-circle:hover {
+  transform: rotate(5deg);
+  box-shadow: 0px 6px 12px rgba(245, 244, 242, 0.8);
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul > li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+@media (max-width: 2560px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1560px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  /* h1 {
+    color: red;
+  } */
+}
